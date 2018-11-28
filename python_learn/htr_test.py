@@ -2,7 +2,7 @@
 Author ：SunJie
 '''
 
-from python_learn import HTMLTestRunner
+from python_learn.tools import HTMLTestRunner
 import time
 import os
 import unittest

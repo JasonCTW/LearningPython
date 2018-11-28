@@ -1,0 +1,1 @@
+Select Distinct terminal_id From RM.LOC_DATA Where merchant_id = '812011145110001'
