@@ -1,0 +1,49 @@
+{
+
+  "riskLevel":4,
+
+  "levelDesc":"较大风险",
+
+  "riskScore":40,
+
+  "merchantId":"812310080990001",
+
+  "riskQuantity":1,
+
+  "isPrectn":1,
+
+  "type":3,
+
+  "ruleAuditLogVos":[
+
+    {
+
+      "ruleId":584,
+
+      "name":"查询类高风险",
+
+      "type":"T0029",
+
+      "effectiveDate":"2014-04-08T00:00:00.000Z",
+
+      "expirationDate":"2034-04-08T00:00:00.000Z",
+
+      "score":70,
+
+      "weight":1.0
+
+    }
+
+  ],
+
+  "prectnRiskTypeVos":[{
+
+    "code":"T0029",
+
+    "name":"中风险查询风险",
+
+    "riskModel":"1"
+
+  }]
+
+}

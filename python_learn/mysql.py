@@ -10,8 +10,8 @@ from python_learn.tools.xls_tool import Tools
 
 class OraTool:
 
-    def __init__(self, xls, sheet ,sql):
-        data = Tools(xls,sheet)
+    def __init__(self, xls, sheet, sql):
+        data = Tools(xls, sheet)
         dict = data.get_data()
         self.sql = sql
         self.ipaddr = dict.get('ipaddr')

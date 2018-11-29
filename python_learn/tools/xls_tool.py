@@ -22,6 +22,6 @@ class Tools:
 
 
 if __name__ == '__main__':
-    data = Tools('myword.xlsx', 'test')
+    data = Tools('data/myword.xlsx', 'test')
     temp = data.get_data()
     print(temp)

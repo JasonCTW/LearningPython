@@ -36,7 +36,5 @@ class Mytest(unittest.TestCase):  # 写个类，继承unnitest.Testcase
         membercode.send_keys(self.memcode)
 
 
-
-
 if __name__ == '__main__':
     unittest.main()
